@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+
+    height:100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(125, 183, 125);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#body{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#top{
+    width: 96%;
+    height: 94%;
+    background-color: #F5FCCD;
+    border-radius: 6px;
+     overflow: hidden; /*  to give the border radius to upper and down side */
+    
+}
+#bottom{
+    width: auto;
+    height: 20%;
+    background-color: #219C90;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.ball{
+    background-color: #4123e8;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* position: relative;
+    left: 30%;
+    top: 30%; */
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin: 5px;
+    
+
+}
+.ball:hover{
+    cursor: pointer;
+
+}
+
+p{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    
+}
+.elem{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: large;
+    cursor: pointer;
+
+}
+.box{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    margin: 5px;
+}
+
+.ball1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    
+    
+}

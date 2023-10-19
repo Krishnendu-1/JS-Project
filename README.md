@@ -1,5 +1,7 @@
 <img width="963" alt="Screenshot (9)" src="https://github.com/Krishnendu-1/JS-Project/assets/116032373/bb39ea80-c867-4468-8bc4-d034e313bb12">
 
+Website link:https://krishnendu-1.github.io/JS-Project/
+
 #Features:-
 
 1.The score and highscore are calculated differently . When the score hit "1" then only the highscore will show 50 and when the score hit "2" then it will show 40.
